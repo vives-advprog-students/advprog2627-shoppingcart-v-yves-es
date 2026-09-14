@@ -22,6 +22,10 @@ public class ShoppingCartItem {
         this.quantity = quantity;
     }
 
+    public double getTotal(){
+        return product.getPrice() * quantity;
+    }
+
     @Override
     public String toString() {
         return "{" +
