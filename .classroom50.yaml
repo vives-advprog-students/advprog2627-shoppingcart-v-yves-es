@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "advprog2627"
+assignment: "shoppingcart"
+owner:
+  username: "v-yves-es"
+  id: 25172526
+  accepted_at: "2026-09-14T14:41:33Z"
+source:
+  owner: "vives-advprog-students"
+  owner_id: 144111900
+  repo: "opgave-shopping-cart"
+  branch: "main"
