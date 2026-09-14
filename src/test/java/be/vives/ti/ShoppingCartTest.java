@@ -17,14 +17,11 @@ public class ShoppingCartTest {
 
     @Test
     void addToEmptyCart() {
-        //build
         assertThat(cart.getNumberOfItems()).isEqualTo(0);
         assertThat(cart.getCart()[0]).isNull();
 
-        //operate
         cart.addToCart(boekenkast, 2);
 
-        //test
         assertThat(cart.getNumberOfItems()).isEqualTo(1);
 
         assertThat(cart.getCart()[0].getProduct()).isEqualTo(boekenkast);
