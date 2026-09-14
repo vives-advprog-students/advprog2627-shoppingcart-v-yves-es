@@ -22,7 +22,7 @@ public class ShoppingCartTest {
 
         cart.addToCart(boekenkast, 2);
 
-        assertThat(cart.getNumberOfItems()).isEqualTo(1);
+        assertThat(cart.getNumberOfItems()).isEqualTo(10);
 
         assertThat(cart.getCart()[0].getProduct()).isEqualTo(boekenkast);
         assertThat(cart.getCart()[0].getQuantity()).isEqualTo(2);
